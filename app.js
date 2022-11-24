@@ -22,7 +22,7 @@ axios.request(options).then(function (response) {
 const json2csvParser = new Parser();
 const csv = json2csvParser.parse(response.data.data);
     fs.writeFileSync("convertedData.csv", csv);
-    console.log("Done ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ");
+    console.log("Done ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅  ");
  
 }).catch(function (error) {
     console.error("❌❌❌❌❌❌❌❌");
